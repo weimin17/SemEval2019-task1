@@ -1,0 +1,51 @@
+<root annotationID="0" passageID="25770012">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[18444692751592219698, 3133765958027331451, 12300760038573508031, 93, 4317129024397789502, 3, 445, 0, 10887629174180191697, 10850957288794122991, 15192908731043726583], [12646065887601541794, 12646065887601541794, 17404231807887051932, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]], [], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Nein" />
+      <extra dep="root" ent_iob="3" ent_type="PER" head="0" lemma="nein" orig_paragraph="5" orth="Nein" pos="PART" prefix="N" shape="Xxxx" suffix="ein" tag="PTKANT" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="." orig_paragraph="5" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="$." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.4" type="P">
+        <attributes />
+      </edge>
+      <edge toID="1.5" type="D">
+        <attributes />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes implicit="True" />
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

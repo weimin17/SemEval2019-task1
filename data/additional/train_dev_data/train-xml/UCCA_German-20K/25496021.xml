@@ -1,0 +1,63 @@
+<root annotationID="0" passageID="25496021">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8523890297231194605, 11733284424025110736, 85, 85, 381, 3, 445, 0, 16072095006890171862, 10850957288794122991, 9727125788672890116], [17494803046312582752, 17494803046312582752, 17404231807887051932, 96, 381, 1, 442, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Niemals" />
+      <extra dep="root" ent_iob="3" ent_type="ORG" head="0" lemma="niemals" orig_paragraph="6" orth="Niemals" pos="ADV" prefix="N" shape="Xxxxx" suffix="als" tag="ADV" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="!" />
+      <extra dep="punct" ent_iob="1" ent_type="ORG" head="-1" lemma="!" orig_paragraph="6" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="$." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="1.5" type="P">
+        <attributes />
+      </edge>
+      <edge toID="1.6" type="D">
+        <attributes />
+      </edge>
+      <edge toID="1.7" type="D">
+        <attributes />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes implicit="True" />
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes implicit="True" />
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

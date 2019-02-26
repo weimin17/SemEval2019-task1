@@ -1,0 +1,26 @@
+<root annotationID="0" passageID="25736004">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[629383395813879425, 629383395813879425, 12777781219550681880, 95, 7654241940133152407, 3, 445, 0, 16072095006890171862, 14862748245026736845, 9829038915380849765]], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Atlantis" />
+      <extra dep="root" ent_iob="3" ent_type="MISC" head="0" lemma="Atlantis" orig_paragraph="4" orth="Atlantis" pos="PROPN" prefix="A" shape="Xxxxx" suffix="tis" tag="FM" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

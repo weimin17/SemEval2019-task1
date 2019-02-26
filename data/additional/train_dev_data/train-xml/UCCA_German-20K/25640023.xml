@@ -1,0 +1,26 @@
+<root annotationID="0" passageID="25640023">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9123165411041186771, 9963485394218994389, 15308085513773655218, 91, 4317129024397789502, 3, 445, 0, 16072095006890171862, 9148987913859918431, 13070799876604222298]], [], [], [], [], [], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Fiebertr&#228;ume" />
+      <extra dep="root" ent_iob="3" ent_type="PER" head="0" lemma="Fiebertraum" orig_paragraph="11" orth="Fiebertr&#228;ume" pos="NOUN" prefix="F" shape="Xxxxx" suffix="ume" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

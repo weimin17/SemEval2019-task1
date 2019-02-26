@@ -1,0 +1,299 @@
+<root annotationID="0" passageID="25776008">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15180167692696242062, 15180167692696242062, 2689273639941441550, 92, 7654241940133152407, 3, 12837356684637874264, 1, 8148669997605808657, 15180167692696242062, 15180167692696242062], [4404310926127629829, 9809956664743357184, 15308085513773655218, 91, 7654241940133152407, 1, 423, 1, 16072095006890171862, 3209455878668673793, 13724210500437027975], [10599490823592921229, 10599490823592921229, 85, 83, 0, 2, 397, 6, 13110060611322374290, 260667111241363922, 16111258787187009011], [17519744635522201115, 5817815807927905559, 16459489951230957934, 86, 0, 2, 408, 5, 13110060611322374290, 260667111241363922, 5870647784995216628], [772318639904384352, 772318639904384352, 17274946937384965927, 94, 0, 2, 426, 4, 4088098365541558500, 260667111241363922, 772318639904384352], [3566421321526964025, 3566421321526964025, 6794885307917495400, 84, 0, 2, 8110129090154140942, 2, 13110060611322374290, 8148669997605808657, 10333095992264041584], [15192908731043726583, 15192908731043726583, 6406657664862290459, 89, 0, 2, 412, 1, 4088098365541558500, 1720370409040345145, 15192908731043726583], [10547503224708156042, 10547503224708156042, 15308085513773655218, 91, 0, 2, 432, 1, 16072095006890171862, 10926178514336144719, 5476683480086836995], [5678844659760079234, 3829580854947887281, 10223029614809230375, 99, 0, 2, 445, 0, 13110060611322374290, 6217145520856553898, 7184697383634207351], [2593208677638477497, 2593208677638477497, 12261388825712162116, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [2666547246678678851, 9250722957692387333, 4551439094721565604, 94, 0, 2, 426, 7, 4088098365541558500, 8148669997605808657, 2666547246678678851], [3573116604670608395, 9250722957692387333, 6406657664862290459, 89, 0, 2, 412, 1, 4088098365541558500, 8148669997605808657, 3573116604670608395], [6793051299622848228, 6793051299622848228, 15308085513773655218, 91, 7654241940133152407, 3, 431, 5, 16072095006890171862, 14230521632333904559, 5462653070606849934], [18244380392239739298, 18244380392239739298, 6794885307917495400, 84, 7654241940133152407, 1, 8110129090154140942, 2, 13110060611322374290, 6217145520856553898, 11090586419576673076], [3573116604670608395, 9250722957692387333, 6406657664862290459, 89, 7654241940133152407, 1, 412, 1, 4088098365541558500, 8148669997605808657, 3573116604670608395], [16129323796169517657, 16129323796169517657, 17274946937384965927, 91, 7654241940133152407, 1, 423, -3, 18200729499220207786, 12290980237632234855, 16129323796169517657], [16006970027526996301, 14396678822731191310, 15308085513773655218, 86, 0, 2, 408, -4, 13110060611322374290, 260667111241363922, 10576201942903268945], [2470937663236848294, 3439827051590795894, 10675845091474465339, 99, 0, 2, 447, -9, 13110060611322374290, 16978132545290669629, 7055521553618189483], [12646065887601541794, 12646065887601541794, 17404231807887051932, 96, 0, 2, 442, -10, 12646065887601541794, 12646065887601541794, 12646065887601541794]], [], [], [], [], [], [], [], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="2" />
+      <extra dep="nummod" ent_iob="3" ent_type="MISC" head="1" lemma="2" orig_paragraph="6" orth="2" pos="NUM" prefix="2" shape="d" suffix="2" tag="CARD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Meilen" />
+      <extra dep="nmod" ent_iob="1" ent_type="MISC" head="1" lemma="Meile" orig_paragraph="6" orth="Meilen" pos="NOUN" prefix="M" shape="Xxxxx" suffix="len" tag="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="weiter" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="6" lemma="weiter" orig_paragraph="6" orth="weiter" pos="ADJ" prefix="w" shape="xxxx" suffix="ter" tag="ADV" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="waren" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="5" lemma="sein" orig_paragraph="6" orth="waren" pos="AUX" prefix="w" shape="xxxx" suffix="ren" tag="VAFIN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="wir" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="4" lemma="wir" orig_paragraph="6" orth="wir" pos="PRON" prefix="w" shape="xxx" suffix="wir" tag="NE" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="durch" />
+      <extra dep="case" ent_iob="2" ent_type="" head="2" lemma="durch" orig_paragraph="6" orth="durch" pos="ADP" prefix="d" shape="xxxx" suffix="rch" tag="APPR" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="ein" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="ein" orig_paragraph="6" orth="ein" pos="DET" prefix="e" shape="xxx" suffix="ein" tag="ART" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="Vorgebirge" />
+      <extra dep="obl" ent_iob="2" ent_type="" head="1" lemma="Vorgebirge" orig_paragraph="6" orth="Vorgebirge" pos="NOUN" prefix="V" shape="Xxxxx" suffix="rge" tag="NN" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="gehemmt" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-5" lemma="hemmen" orig_paragraph="6" orth="gehemmt" pos="VERB" prefix="g" shape="xxxx" suffix="mmt" tag="VVPP" />
+    </node>
+    <node ID="0.10" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="10" text="," />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="," orig_paragraph="6" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="$," />
+    </node>
+    <node ID="0.11" type="Word">
+      <attributes paragraph="1" paragraph_position="11" text="das" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="7" lemma="der" orig_paragraph="6" orth="das" pos="PRON" prefix="d" shape="xxx" suffix="das" tag="PRELS" />
+    </node>
+    <node ID="0.12" type="Word">
+      <attributes paragraph="1" paragraph_position="12" text="die" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="der" orig_paragraph="6" orth="die" pos="DET" prefix="d" shape="xxx" suffix="die" tag="ART" />
+    </node>
+    <node ID="0.13" type="Word">
+      <attributes paragraph="1" paragraph_position="13" text="Bucht" />
+      <extra dep="obj" ent_iob="3" ent_type="MISC" head="5" lemma="Bucht" orig_paragraph="6" orth="Bucht" pos="NOUN" prefix="B" shape="Xxxxx" suffix="cht" tag="NN" />
+    </node>
+    <node ID="0.14" type="Word">
+      <attributes paragraph="1" paragraph_position="14" text="gegen" />
+      <extra dep="case" ent_iob="1" ent_type="MISC" head="2" lemma="gegen" orig_paragraph="6" orth="gegen" pos="ADP" prefix="g" shape="xxxx" suffix="gen" tag="APPR" />
+    </node>
+    <node ID="0.15" type="Word">
+      <attributes paragraph="1" paragraph_position="15" text="die" />
+      <extra dep="det" ent_iob="1" ent_type="MISC" head="1" lemma="der" orig_paragraph="6" orth="die" pos="DET" prefix="d" shape="xxx" suffix="die" tag="ART" />
+    </node>
+    <node ID="0.16" type="Word">
+      <attributes paragraph="1" paragraph_position="16" text="S&#252;d" />
+      <extra dep="nmod" ent_iob="1" ent_type="MISC" head="-3" lemma="S&#252;d" orig_paragraph="6" orth="S&#252;d" pos="NOUN" prefix="S" shape="Xxx" suffix="S&#252;d" tag="NE" />
+    </node>
+    <node ID="0.17" type="Word">
+      <attributes paragraph="1" paragraph_position="17" text="winde" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="-4" lemma="winden" orig_paragraph="6" orth="winde" pos="AUX" prefix="w" shape="xxxx" suffix="nde" tag="NN" />
+    </node>
+    <node ID="0.18" type="Word">
+      <attributes paragraph="1" paragraph_position="18" text="sch&#252;tzte" />
+      <extra dep="acl" ent_iob="2" ent_type="" head="-9" lemma="sch&#252;tzen" orig_paragraph="6" orth="sch&#252;tzte" pos="VERB" prefix="s" shape="xxxx" suffix="zte" tag="VVFIN" />
+    </node>
+    <node ID="0.19" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="19" text="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-10" lemma="." orig_paragraph="6" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="$." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.4" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.5" type="F">
+        <attributes />
+      </edge>
+      <edge toID="1.6" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.7" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.8" type="S">
+        <attributes />
+      </edge>
+      <edge toID="1.27" type="U">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.24" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.25" type="C">
+        <attributes />
+      </edge>
+      <edge toID="1.26" type="E">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="1.10" type="R">
+        <attributes />
+      </edge>
+      <edge toID="1.11" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.12" type="C">
+        <attributes />
+      </edge>
+      <edge toID="1.13" type="E">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="1.12" type="A">
+        <attributes remote="True" />
+      </edge>
+      <edge toID="1.14" type="R">
+        <attributes />
+      </edge>
+      <edge toID="1.15" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.16" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.17" type="P">
+        <attributes />
+      </edge>
+      <edge toID="1.28" type="U">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <edge toID="0.11" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.15" type="FN">
+      <attributes />
+      <edge toID="1.22" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.23" type="C">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.16" type="FN">
+      <attributes />
+      <edge toID="1.18" type="R">
+        <attributes />
+      </edge>
+      <edge toID="1.19" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.20" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.21" type="C">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.17" type="FN">
+      <attributes />
+      <edge toID="0.18" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.18" type="FN">
+      <attributes />
+      <edge toID="0.14" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.19" type="FN">
+      <attributes />
+      <edge toID="0.15" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.20" type="FN">
+      <attributes />
+      <edge toID="0.16" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.21" type="FN">
+      <attributes />
+      <edge toID="0.17" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.22" type="FN">
+      <attributes />
+      <edge toID="0.12" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.23" type="FN">
+      <attributes />
+      <edge toID="0.13" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.24" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.25" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.26" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.27" type="PNCT">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.28" type="PNCT">
+      <attributes />
+      <edge toID="0.19" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

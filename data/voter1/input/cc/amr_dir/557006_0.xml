@@ -1,0 +1,56 @@
+<root annotationID="0" passageID="557006_0">
+  <attributes lang="en" />
+  <extra original="[&quot;# ::id 557006_0&quot;, &quot;# ::tok Hold .&quot;, &quot;# ::format ucca&quot;, &quot;(v1 / label&quot;, &quot;    :H (v2 / label&quot;, &quot;        :A (v3 / label)&quot;, &quot;        :P (v4 / label)))&quot;]" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12992267463180803848, 3818475640248018718, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 10887629174180191697, 9350754067018752509, 2483095116303079762], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Hold" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes label="Concept(label)" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes label="Concept(label)" />
+      <edge toID="1.3" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+      <edge toID="1.4" type="P">
+        <attributes />
+        <category tag="P" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes implicit="True" label="Concept(label)" />
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes label="Concept(label)" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

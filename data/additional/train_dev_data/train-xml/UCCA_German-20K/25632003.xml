@@ -1,0 +1,90 @@
+<root annotationID="0" passageID="25632003">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13392642364380995863, 13392642364380995863, 15308085513773655218, 91, 0, 2, 411, 4, 16072095006890171862, 8656007278630577320, 11459100825914725836], [13000630151922783514, 13000630151922783514, 17274946937384965927, 95, 0, 2, 400, -1, 10887629174180191697, 10850957288794122991, 14889502520286857535], [16978132545290669629, 16978132545290669629, 15308085513773655218, 95, 0, 2, 2666271516716718244, -1, 11123243248953317070, 16978132545290669629, 16978132545290669629], [4366572809450051934, 4366572809450051934, 17274946937384965927, 95, 0, 2, 2666271516716718244, -2, 16072095006890171862, 14230521632333904559, 16328620523511056159], [16439960318440809480, 10746712325624684424, 15308085513773655218, 99, 0, 2, 445, 0, 13110060611322374290, 16978132545290669629, 5150143848157582698]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Kapit&#228;n" />
+      <extra dep="dep" ent_iob="2" ent_type="" head="4" lemma="Kapit&#228;n" orig_paragraph="3" orth="Kapit&#228;n" pos="NOUN" prefix="K" shape="Xxxxx" suffix="t&#228;n" tag="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Nemo" />
+      <extra dep="appos" ent_iob="2" ent_type="" head="-1" lemma="Nemo" orig_paragraph="3" orth="Nemo" pos="PROPN" prefix="N" shape="Xxxx" suffix="emo" tag="NE" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="s" />
+      <extra dep="flat" ent_iob="2" ent_type="" head="-1" lemma="s" orig_paragraph="3" orth="s" pos="PROPN" prefix="s" shape="x" suffix="s" tag="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Blitz" />
+      <extra dep="flat" ent_iob="2" ent_type="" head="-2" lemma="Blitz" orig_paragraph="3" orth="Blitz" pos="PROPN" prefix="B" shape="Xxxxx" suffix="itz" tag="NE" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="strahl" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="strehlen" orig_paragraph="3" orth="strahl" pos="VERB" prefix="s" shape="xxxx" suffix="ahl" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.4" type="S">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="1.7" type="C">
+        <attributes />
+      </edge>
+      <edge toID="1.8" type="R">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.6" type="C">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

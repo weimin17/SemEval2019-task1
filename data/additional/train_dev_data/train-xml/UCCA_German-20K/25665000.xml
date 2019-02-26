@@ -1,0 +1,58 @@
+<root annotationID="0" passageID="25665000">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6245235275672532050, 9250722957692387333, 6406657664862290459, 89, 0, 2, 412, 1, 18200729499220207786, 3929483993944067416, 6245235275672532050], [7136539407362594158, 15050698531238896091, 9068901972800807265, 95, 383, 3, 399, 1, 16072095006890171862, 4690420944186131903, 13130769157622138839], [3749718939727362061, 3749718939727362061, 17274946937384965927, 95, 383, 1, 445, 0, 16072095006890171862, 17427324969254097257, 12934803712391722121]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Der" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="der" orig_paragraph="1" orth="Der" pos="DET" prefix="D" shape="Xxx" suffix="Der" tag="ART" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Indische" />
+      <extra dep="amod" ent_iob="3" ent_type="LOC" head="1" lemma="indisch" orig_paragraph="1" orth="Indische" pos="PROPN" prefix="I" shape="Xxxxx" suffix="che" tag="ADJA" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Ozean" />
+      <extra dep="root" ent_iob="1" ent_type="LOC" head="0" lemma="Ozean" orig_paragraph="1" orth="Ozean" pos="PROPN" prefix="O" shape="Xxxxx" suffix="ean" tag="NE" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.4" type="E">
+        <attributes />
+      </edge>
+      <edge toID="1.5" type="C">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

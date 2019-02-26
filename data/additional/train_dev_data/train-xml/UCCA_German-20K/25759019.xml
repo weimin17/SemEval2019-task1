@@ -1,0 +1,83 @@
+<root annotationID="0" passageID="25759019">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7030293633371495790, 7030293633371495790, 17274946937384965927, 91, 4317129024397789502, 3, 445, 0, 10887629174180191697, 3209455878668673793, 12454661189205067574], [11593690929944126543, 11593690929944126543, 17274946937384965927, 88, 0, 2, 404, 1, 4088098365541558500, 12247454108283186160, 11593690929944126543], [8035781845149121396, 13710474932170070449, 15308085513773655218, 91, 381, 3, 407, -2, 16072095006890171862, 7173976090571422945, 3345464994591927970], [17494803046312582752, 17494803046312582752, 17404231807887051932, 96, 381, 1, 442, -3, 17494803046312582752, 17494803046312582752, 17494803046312582752]], [], [], [], [], [], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Maul" />
+      <extra dep="root" ent_iob="3" ent_type="PER" head="0" lemma="Maul" orig_paragraph="12" orth="Maul" pos="NOUN" prefix="M" shape="Xxxx" suffix="aul" tag="NE" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="und" />
+      <extra dep="cc" ent_iob="2" ent_type="" head="1" lemma="und" orig_paragraph="12" orth="und" pos="CCONJ" prefix="u" shape="xxx" suffix="und" tag="NE" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Z&#228;hne" />
+      <extra dep="conj" ent_iob="3" ent_type="ORG" head="-2" lemma="Zahn" orig_paragraph="12" orth="Z&#228;hne" pos="NOUN" prefix="Z" shape="Xxxxx" suffix="hne" tag="NN" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!" />
+      <extra dep="punct" ent_iob="1" ent_type="ORG" head="-3" lemma="!" orig_paragraph="12" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="$." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.4" type="S">
+        <attributes />
+      </edge>
+      <edge toID="1.5" type="A">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes implicit="True" />
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="C">
+        <attributes />
+      </edge>
+      <edge toID="1.7" type="N">
+        <attributes />
+      </edge>
+      <edge toID="1.8" type="C">
+        <attributes />
+      </edge>
+      <edge toID="1.9" type="U">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.9" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

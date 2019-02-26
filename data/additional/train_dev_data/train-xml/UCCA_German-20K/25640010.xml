@@ -1,0 +1,78 @@
+<root annotationID="0" passageID="25640010">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10265832328710632600, 10265832328710632600, 15308085513773655218, 91, 4317129024397789502, 3, 426, 1, 16072095006890171862, 149303876845869574, 9113047341877232477], [1269071886833429403, 5817815807927905559, 85, 86, 0, 2, 445, 0, 4088098365541558500, 260667111241363922, 1269071886833429403], [9900470507090655780, 9900470507090655780, 6794885307917495400, 84, 0, 2, 8110129090154140942, 1, 13110060611322374290, 11901859001352538922, 5655814204835692696], [16692807490131828156, 6901841931874534470, 3443513148085174024, 94, 0, 2, 432, -2, 13110060611322374290, 16978132545290669629, 5864527961345014045], [12646065887601541794, 12646065887601541794, 17404231807887051932, 96, 0, 2, 442, -3, 12646065887601541794, 12646065887601541794, 12646065887601541794]], [], [], [], [], [], [], [], [], [], [], []]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Conseil" />
+      <extra dep="nsubj" ent_iob="3" ent_type="PER" head="1" lemma="Conseil" orig_paragraph="8" orth="Conseil" pos="NOUN" prefix="C" shape="Xxxxx" suffix="eil" tag="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="war" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="sein" orig_paragraph="8" orth="war" pos="AUX" prefix="w" shape="xxx" suffix="war" tag="ADV" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="au&#223;er" />
+      <extra dep="case" ent_iob="2" ent_type="" head="1" lemma="au&#223;er" orig_paragraph="8" orth="au&#223;er" pos="ADP" prefix="a" shape="xxxx" suffix="&#223;er" tag="APPR" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="sich" />
+      <extra dep="obl" ent_iob="2" ent_type="" head="-2" lemma="er|es|sie" orig_paragraph="8" orth="sich" pos="PRON" prefix="s" shape="xxxx" suffix="ich" tag="PRF" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="." orig_paragraph="8" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="$." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.4" type="A">
+        <attributes />
+      </edge>
+      <edge toID="1.5" type="F">
+        <attributes />
+      </edge>
+      <edge toID="1.6" type="S">
+        <attributes />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+      </edge>
+    </node>
+  </layer>
+</root>

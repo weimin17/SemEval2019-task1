@@ -1,0 +1,4 @@
+cmd: ./run input_dir1 input_dir2 ...
+example: ./run input/sdp_dir/ input/con_dir/ input/amr_dir/
+
+The result of voter will be exported to "output/".
