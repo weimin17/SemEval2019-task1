@@ -10,3 +10,4 @@ If you make use of this software, please cite the following paper:
 
 Weimin Lyu, Sheng Huang, Abdul Rafae Khan, Shengqiang Zhang, Weiwei Sun, and Jia Xu. 2019.CUNY-PKU parser at SemEval-2019 Task 1: Cross-lingual semantic parsing with UCCA. In Proc. of SemEval-2019.
 
+More details including codes and results would be updated before June 7, 2019. 
